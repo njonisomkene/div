@@ -1,0 +1,64 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500,900;
+    font-size: 13px;
+}
+.li{
+    display: flex;
+}
+
+.li div{
+    margin-left: 10px;
+    height: 100px;
+    width: 100px;
+    margin-bottom: 7px;
+}
+
+#left {
+    position: relative;
+    background-color: brown;
+    height: 207px;
+    width: 100px;
+    top: -214px;
+    right: 140px;
+    float: right;
+}
+/* desisgn for small box */
+.li #small{
+    height: 300px;
+    width: 300px;
+}
+
+
+/* design for first big box */
+.li #big{
+    width: 600px;
+    height: 300px;
+}
+.li .bigbox1{
+    background-color: hsl(263, 55%, 52%);
+    padding: 22px;
+}
+
+.li .bigbox1 .img-txt{
+    display: flex;
+    margin-top: 10px;
+    width: 800px;
+
+}
+
+.li .bigbox1 .img-txt img{
+    border-radius: 50px;
+
+}
+.li .bigbox1 .img-txt h4,h2{
+    color: aliceblue;
+    font-weight: bolder;
+}
+.li .bigbox1 p{
+    font-weight: lighter;
+    color:hsl(0, 0%, 81%)
+}
+.li .bigbox1 .img-txt #quote{
+    margin-left: 250px;
+}
