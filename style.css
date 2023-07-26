@@ -38,6 +38,7 @@ body{
 .li .bigbox1{
     background-color: hsl(263, 55%, 52%);
     padding: 22px;
+    border-radius: 22px;
 }
 
 .li .bigbox1 .img-txt{
@@ -55,10 +56,21 @@ body{
     color: aliceblue;
     font-weight: bolder;
 }
+.li .bigbox1 h2{
+    position: relative;
+    top: -30px;
+    font-size: 22px;
+    letter-spacing: 0.5px;
+}
 .li .bigbox1 p{
     font-weight: lighter;
-    color:hsl(0, 0%, 81%)
+    color:hsl(0, 0%, 81%);
+    position: relative;
+    top: -17px;
 }
 .li .bigbox1 .img-txt #quote{
-    margin-left: 250px;
+    margin-left: 220px;
+    position: relative;
+    height: 150px;
+    top: -15px;
 }
